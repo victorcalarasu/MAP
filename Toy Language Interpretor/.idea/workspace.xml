@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e1a2ff2-004a-421f-a0ca-db1264882b91" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SeFvjj3PW2n8LCGxphjgfyQLGj" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Interpreter">
+    <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.Interpreter" />
+      <module name="Lab02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Interpreter" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e1a2ff2-004a-421f-a0ca-db1264882b91" name="Default Changelist" comment="" />
+      <created>1571916387278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571916387278</updated>
+      <workItem from="1571916392412" duration="666000" />
+      <workItem from="1573316976397" duration="14459000" />
+      <workItem from="1573494659427" duration="2218000" />
+      <workItem from="1573588687580" duration="434000" />
+      <workItem from="1573649036032" duration="501000" />
+      <workItem from="1573731655645" duration="5945000" />
+      <workItem from="1574266608595" duration="640000" />
+      <workItem from="1574267321944" duration="3739000" />
+      <workItem from="1574282095632" duration="917000" />
+      <workItem from="1574335831892" duration="500000" />
+      <workItem from="1574338363578" duration="1930000" />
+      <workItem from="1574613785639" duration="4075000" />
+      <workItem from="1574678541083" duration="487000" />
+      <workItem from="1574692474866" duration="4733000" />
+      <workItem from="1574775080878" duration="3395000" />
+      <workItem from="1574796105416" duration="5297000" />
+      <workItem from="1574943510246" duration="588000" />
+      <workItem from="1574947048440" duration="1841000" />
+      <workItem from="1574949749058" duration="72000" />
+      <workItem from="1575547572487" duration="63000" />
+      <workItem from="1575547678727" duration="6076000" />
+      <workItem from="1575876302506" duration="189000" />
+      <workItem from="1575902634556" duration="857000" />
+      <workItem from="1575904251878" duration="1557000" />
+      <workItem from="1575905940250" duration="3198000" />
+      <workItem from="1575928255595" duration="2471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

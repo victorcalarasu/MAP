@@ -1,0 +1,200 @@
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( varfstring ;( varf test.in;( openRFile ;( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( varf test.in;( openRFile ;( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|varfstring |}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( varf test.in;( openRFile ;( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|}
+symbolTable= {varf -> ;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( openRFile ;( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|varf test.in|}
+symbolTable= {varf -> ;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( openRFile ;( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|openRFile |}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( varcint ;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|varcint |}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|}
+symbolTable= {varf -> test.in;varc -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( Reading varf varname;( print( varc );closeRFile ) )|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( Reading varf varname;( print( varc );closeRFile ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( print( varc );closeRFile )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|( print( varc );closeRFile )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|closeRFile|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|closeRFile|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( abool ;( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) ) )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) )|abool |}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( vint ;( a true;( if a then v 2 else v 3;print( v ) ) ) )|}
+symbolTable= {a -> false;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( a true;( if a then v 2 else v 3;print( v ) ) )|vint |}
+symbolTable= {a -> false;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( a true;( if a then v 2 else v 3;print( v ) ) )|}
+symbolTable= {a -> false;v -> 0;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( if a then v 2 else v 3;print( v ) )|a true|}
+symbolTable= {a -> false;v -> 0;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|( if a then v 2 else v 3;print( v ) )|}
+symbolTable= {a -> true;v -> 0;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|print( v )|if a then v 2 else v 3|}
+symbolTable= {a -> true;v -> 0;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|print( v )|}
+symbolTable= {a -> true;v -> 2;varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( aint ;( bint ;( a 2  3  5;( b a  1;print( b ) ) ) ) )|}
+symbolTable= {a -> true;v -> 2;varf -> test.in;varc -> 20;}
+output= {15 20 2 }
+}]
+
+[ProgramState:{executionStack= {( vint ;( v 2;print( v ) ) )|( bint ;( a 2  3  5;( b a  1;print( b ) ) ) )|aint |}
+symbolTable= {a -> true;v -> 2;varf -> test.in;varc -> 20;}
+output= {15 20 2 }
+}]
+
+[ProgramState:{executionStack= {( int a;( int b;( a=2  3  5;( b=a  1;print( b ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int b;( a=2  3  5;( b=a  1;print( b ) ) ) )|int a|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int b;( a=2  3  5;( b=a  1;print( b ) ) ) )|}
+symbolTable= {a -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=2  3  5;( b=a  1;print( b ) ) )|int b|}
+symbolTable= {a -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=2  3  5;( b=a  1;print( b ) ) )|}
+symbolTable= {a -> 0;b -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( b=a  1;print( b ) )|a=2  3  5|}
+symbolTable= {a -> 0;b -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int a;( int b;( a=2  3  5;( b=a  1;print( b ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int b;( a=2  3  5;( b=a  1;print( b ) ) ) )|int a|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int b;( a=2  3  5;( b=a  1;print( b ) ) ) )|}
+symbolTable= {a -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=2  3  5;( b=a  1;print( b ) ) )|int b|}
+symbolTable= {a -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=2  3  5;( b=a  1;print( b ) ) )|}
+symbolTable= {a -> 0;b -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( b=a  1;print( b ) )|a=2  3  5|}
+symbolTable= {a -> 0;b -> 0;}
+output= {}
+}]
+

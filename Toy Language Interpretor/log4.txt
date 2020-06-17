@@ -1,0 +1,288 @@
+[ProgramState:{executionStack= {( string varf;( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|string varf|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|}
+symbolTable= {varf -> ;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|varf=test.in|}
+symbolTable= {varf -> ;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|openRFile |}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|int varc|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|}
+symbolTable= {varf -> test.in;varc -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );closeRFile ) )|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );closeRFile ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( print( varc );closeRFile )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( print( varc );closeRFile )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {closeRFile|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {closeRFile|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( string varf;( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|string varf|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|}
+symbolTable= {varf -> ;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|varf=test.in|}
+symbolTable= {varf -> ;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|openRFile |}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|int varc|}
+symbolTable= {varf -> test.in;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|}
+symbolTable= {varf -> test.in;varc -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );closeRFile ) )|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );closeRFile ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( print( varc );closeRFile )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 15;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( print( varc );closeRFile )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {closeRFile|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {closeRFile|}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {varf -> test.in;varc -> 20;}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {( string varf;( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|string varf|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( varf=test.in;( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) ) )|}
+symbolTable= {varf -> ;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|varf=test.in|}
+symbolTable= {varf -> ;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( openRFile ;( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|openRFile |}
+symbolTable= {varf -> test.in;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int varc;( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) ) )|}
+symbolTable= {varf -> test.in;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|int varc|}
+symbolTable= {varf -> test.in;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) ) )|}
+symbolTable= {varf -> test.in;varc -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( varc );( Reading varf varname;( print( varc );closeRFile ) ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );closeRFile ) )|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Reading varf varname;( print( varc );closeRFile ) )|}
+symbolTable= {varf -> test.in;varc -> 15;}
+heap = {}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( print( varc );closeRFile )|Reading varf varname|}
+symbolTable= {varf -> test.in;varc -> 15;}
+heap = {}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {( print( varc );closeRFile )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+heap = {}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {closeRFile|print( varc )|}
+symbolTable= {varf -> test.in;varc -> 20;}
+heap = {}
+output= {15 }
+}]
+
+[ProgramState:{executionStack= {closeRFile|}
+symbolTable= {varf -> test.in;varc -> 20;}
+heap = {}
+output= {15 20 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {varf -> test.in;varc -> 20;}
+heap = {}
+output= {15 20 }
+}]
+

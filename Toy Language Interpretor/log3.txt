@@ -1,0 +1,100 @@
+[ProgramState:{executionStack= {( bool a;( int v;( a=true;( if a then v=2 else v=3;print( v ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int v;( a=true;( if a then v=2 else v=3;print( v ) ) ) )|bool a|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int v;( a=true;( if a then v=2 else v=3;print( v ) ) ) )|}
+symbolTable= {a -> false;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=true;( if a then v=2 else v=3;print( v ) ) )|int v|}
+symbolTable= {a -> false;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=true;( if a then v=2 else v=3;print( v ) ) )|}
+symbolTable= {a -> false;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( if a then v=2 else v=3;print( v ) )|a=true|}
+symbolTable= {a -> false;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( if a then v=2 else v=3;print( v ) )|}
+symbolTable= {a -> true;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|if a then v=2 else v=3|}
+symbolTable= {a -> true;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|}
+symbolTable= {a -> true;v -> 2;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {a -> true;v -> 2;}
+output= {2 }
+}]
+
+[ProgramState:{executionStack= {( bool a;( int v;( a=true;( if a then v=2 else v=3;print( v ) ) ) ) )|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int v;( a=true;( if a then v=2 else v=3;print( v ) ) ) )|bool a|}
+symbolTable= {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( int v;( a=true;( if a then v=2 else v=3;print( v ) ) ) )|}
+symbolTable= {a -> false;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=true;( if a then v=2 else v=3;print( v ) ) )|int v|}
+symbolTable= {a -> false;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( a=true;( if a then v=2 else v=3;print( v ) ) )|}
+symbolTable= {a -> false;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( if a then v=2 else v=3;print( v ) )|a=true|}
+symbolTable= {a -> false;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( if a then v=2 else v=3;print( v ) )|}
+symbolTable= {a -> true;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|if a then v=2 else v=3|}
+symbolTable= {a -> true;v -> 0;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|}
+symbolTable= {a -> true;v -> 2;}
+output= {}
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {a -> true;v -> 2;}
+output= {2 }
+}]
+

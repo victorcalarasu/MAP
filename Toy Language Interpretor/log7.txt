@@ -1,0 +1,650 @@
+[ProgramState:{executionStack= {( Ref( int  )v;( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|Ref( int  )v|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|new( v 20 )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|print( rH( v ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|Ref( Ref( int  ) )a|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|new( a v )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|wH( 30 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 35 }
+}]
+
+[ProgramState:{executionStack= {( Ref( int  )v;( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|Ref( int  )v|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|new( v 20 )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|print( rH( v ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|Ref( Ref( int  ) )a|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|new( a v )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|wH( 30 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 35 }
+}]
+
+ProgramState:{executionStack= {( Ref( int  )v;( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( int v;( Ref( int  )a;( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|Ref( int  )v|}
+symbolTable= {}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( int  )a;( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) ) )|int v|}
+symbolTable= {}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|Ref( int  )v|}
+symbolTable= {}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( int  )a;( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) ) )|int v|}
+symbolTable= {}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( int  )a;( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) ) )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( v 20 );( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( int  )a;( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) ) )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|new( v 20 )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) )|Ref( int  )a|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|new( v 20 )|}
+symbolTable= {v -> int ;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) )|Ref( int  )a|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( rH( v ) );( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( v=10;( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|print( rH( v ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) )|v=10|}
+symbolTable= {a -> int ;v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|print( rH( v ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) )|v=10|}
+symbolTable= {a -> int ;v -> 0;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( Ref( Ref( int  ) )a;( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) ) )|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( new( a 22 );( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|Ref( Ref( int  ) )a|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) )|new( a 22 )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|Ref( Ref( int  ) )a|}
+symbolTable= {v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) )|new( a 22 )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( new( a v );( wH( 30 );print( rH( rH( a ) ) + 5 ) ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ));( print( v );print( rH( a ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|new( a v )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ))|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|new( a v )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|fork(( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) ))|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( wH( 30 );print( rH( rH( a ) ) + 5 ) )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( wH( 30 );( v=32;( print( v );print( rH( a ) ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->22
+}
+output= {}
+}
+
+ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|wH( 30 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( v=32;( print( v );print( rH( a ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( v=32;( print( v );print( rH( a ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|wH( 30 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->20
+3->int 
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( v=32;( print( v );print( rH( a ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( v=32;( print( v );print( rH( a ) ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( print( v );print( rH( a ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( print( v );print( rH( a ) ) )|}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {print( rH( rH( a ) ) + 5 )|}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( print( v );print( rH( a ) ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|( print( v );print( rH( a ) ) )|}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {}
+}
+
+ProgramState:{executionStack= {}
+symbolTable= {a -> Ref( int  );v -> int ;}
+heap = {2->30
+3->int 
+}
+output= {20 35 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|print( rH( a ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {32 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|print( rH( a ) )|}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {32 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|print( rH( a ) )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {32 }
+}
+
+ProgramState:{executionStack= {( print( v );print( rH( a ) ) )|print( rH( a ) )|}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {32 }
+}
+
+ProgramState:{executionStack= {print( rH( a ) )|print( v )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {32 30 }
+}
+
+ProgramState:{executionStack= {print( rH( a ) )|print( v )|}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {32 30 }
+}
+
+ProgramState:{executionStack= {print( rH( a ) )|print( v )|}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {32 30 }
+}
+
+ProgramState:{executionStack= {print( rH( a ) )|print( v )|}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {32 30 }
+}
+
+ProgramState:{executionStack= {}
+symbolTable= {a -> int ;v -> 10;}
+heap = {2->30
+}
+output= {32 30 10 30 }
+}
+
+ProgramState:{executionStack= {}
+symbolTable= {a -> int ;v -> 32;}
+heap = {2->30
+}
+output= {32 30 10 30 }
+}
+

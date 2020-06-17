@@ -1,0 +1,906 @@
+[ProgramState:{executionStack= {( int v;( v=10;(while( v>0 )( print( v );v=v - 1 ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( v=10;(while( v>0 )( print( v );v=v - 1 ) )|int v|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {( v=10;(while( v>0 )( print( v );v=v - 1 ) )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=10|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {( ( int v;( v=10;(while( v>0 )( print( v );v=v  1 ) ) );print( v ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( int v;( v=10;(while( v>0 )( print( v );v=v  1 ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( v=10;(while( v>0 )( print( v );v=v  1 ) )|int v|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( v=10;(while( v>0 )( print( v );v=v  1 ) )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v  1 )|v=10|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v  1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v  1 )|( print( v );v=v  1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v  1 )|v=v  1|print( v )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v  1 )|v=v  1|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {( ( int v;( v=10;(while( v>0 )( print( v );v=v - 1 ) ) );print( v ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( int v;( v=10;(while( v>0 )( print( v );v=v - 1 ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( v=10;(while( v>0 )( print( v );v=v - 1 ) )|int v|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( v=10;(while( v>0 )( print( v );v=v - 1 ) )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=10|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {print( v )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 0 }
+}]
+
+[ProgramState:{executionStack= {( ( int v;( v=10;(while( v>0 )( print( v );v=v - 1 ) ) );print( v ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( int v;( v=10;(while( v>0 )( print( v );v=v - 1 ) ) )|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( v=10;(while( v>0 )( print( v );v=v - 1 ) )|int v|}
+symbolTable= {}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|( v=10;(while( v>0 )( print( v );v=v - 1 ) )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=10|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {}
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 10;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 9;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 8;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 7;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 6;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 5;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 4;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 3;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 2;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|( print( v );v=v - 1 )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|print( v )|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|v=v - 1|}
+symbolTable= {v -> 1;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {print( v )|(while( v>0 )( print( v );v=v - 1 )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {print( v )|}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 }
+}]
+
+[ProgramState:{executionStack= {}
+symbolTable= {v -> 0;}
+heap = {}
+output= {10 9 8 7 6 5 4 3 2 1 0 }
+}]
+
